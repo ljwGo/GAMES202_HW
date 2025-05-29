@@ -1,0 +1,9 @@
+# CMake generation dependency list for this directory.
+D:/Course/02ComputerGraph (计算机图形学)/GAMES202/hw2/prt/ext/nanogui/ext/glfw/CMakeLists.txt
+D:/Course/02ComputerGraph (计算机图形学)/GAMES202/hw2/prt/ext/nanogui/ext/glfw/src/glfw3.pc.in
+D:/Course/02ComputerGraph (计算机图形学)/GAMES202/hw2/prt/ext/nanogui/ext/glfw/src/glfw3Config.cmake.in
+D:/Course/02ComputerGraph (计算机图形学)/GAMES202/hw2/prt/ext/nanogui/ext/glfw/src/glfw_config.h.in
+D:/Softwares/07CMake/share/cmake-3.28/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+D:/Softwares/07CMake/share/cmake-3.28/Modules/CMakePackageConfigHelpers.cmake
+D:/Softwares/07CMake/share/cmake-3.28/Modules/GNUInstallDirs.cmake
+D:/Softwares/07CMake/share/cmake-3.28/Modules/WriteBasicConfigVersionFile.cmake

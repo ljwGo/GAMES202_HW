@@ -1,0 +1,6 @@
+# CMake generation dependency list for this directory.
+D:/Course/02ComputerGraph (计算机图形学)/GAMES202/hw2/prt/ext/openexr/OpenEXR/CMakeLists.txt
+D:/Softwares/07CMake/share/cmake-3.28/Modules/CPack.cmake
+D:/Softwares/07CMake/share/cmake-3.28/Modules/CPackComponent.cmake
+D:/Softwares/07CMake/share/cmake-3.28/Modules/CheckCXXSourceCompiles.cmake
+D:/Softwares/07CMake/share/cmake-3.28/Templates/CPackConfig.cmake.in

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\Course\02ComputerGraph (计算机图形学)\GAMES202\hw2\prt\noriBuild\CMakeFiles\4fa393572fc5749f18b49bbb8b1a70df\PACKAGE_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{2AC37D09-451F-3ACB-A539-3AB21D8AD092}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

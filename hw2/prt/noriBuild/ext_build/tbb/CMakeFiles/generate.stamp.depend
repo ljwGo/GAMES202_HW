@@ -1,0 +1,18 @@
+# CMake generation dependency list for this directory.
+D:/Course/02ComputerGraph (计算机图形学)/GAMES202/hw2/prt/ext/tbb/CMakeLists.txt
+D:/Course/02ComputerGraph (计算机图形学)/GAMES202/hw2/prt/ext/tbb/build/version_string.ver.in
+D:/Course/02ComputerGraph (计算机图形学)/GAMES202/hw2/prt/noriBuild/CMakeFiles/3.28.1/CMakeASM_MASMCompiler.cmake
+D:/Softwares/07CMake/share/cmake-3.28/Modules/CMakeASMCompiler.cmake.in
+D:/Softwares/07CMake/share/cmake-3.28/Modules/CMakeASMInformation.cmake
+D:/Softwares/07CMake/share/cmake-3.28/Modules/CMakeASM_MASMInformation.cmake
+D:/Softwares/07CMake/share/cmake-3.28/Modules/CMakeCompilerIdDetection.cmake
+D:/Softwares/07CMake/share/cmake-3.28/Modules/CMakeDetermineASMCompiler.cmake
+D:/Softwares/07CMake/share/cmake-3.28/Modules/CMakeDetermineASM_MASMCompiler.cmake
+D:/Softwares/07CMake/share/cmake-3.28/Modules/CMakeDetermineCompiler.cmake
+D:/Softwares/07CMake/share/cmake-3.28/Modules/CMakeDetermineCompilerId.cmake
+D:/Softwares/07CMake/share/cmake-3.28/Modules/CMakeFindBinUtils.cmake
+D:/Softwares/07CMake/share/cmake-3.28/Modules/CMakeTestASMCompiler.cmake
+D:/Softwares/07CMake/share/cmake-3.28/Modules/CMakeTestASM_MASMCompiler.cmake
+D:/Softwares/07CMake/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake
+D:/Softwares/07CMake/share/cmake-3.28/Modules/CheckCXXSourceRuns.cmake
+D:/Softwares/07CMake/share/cmake-3.28/Modules/Internal/CheckSourceRuns.cmake

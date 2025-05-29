@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AC9F881F-E33F-30C9-A64B-5A0D31F1AE05}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Course\02ComputerGraph (计算机图形学)\GAMES202\hw2\prt\ext\zlib;D:\Course\02ComputerGraph (计算机图形学)\GAMES202\hw2\prt\noriBuild\ext_build\zlib;D:\Course\02ComputerGraph (计算机图形学)\GAMES202\hw2\prt\ext\openexr\IlmBase\Iex;D:\Course\02ComputerGraph (计算机图形学)\GAMES202\hw2\prt\ext\openexr\IlmBase\Imath;D:\Course\02ComputerGraph (计算机图形学)\GAMES202\hw2\prt\ext\openexr\IlmBase\IlmThread;D:\Course\02ComputerGraph (计算机图形学)\GAMES202\hw2\prt\ext\openexr\IlmBase\Half;D:\Course\02ComputerGraph (计算机图形学)\GAMES202\hw2\prt\noriBuild\ext_build\openexr\IlmBase\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Course\02ComputerGraph (计算机图形学)\GAMES202\hw2\prt\ext\zlib;D:\Course\02ComputerGraph (计算机图形学)\GAMES202\hw2\prt\noriBuild\ext_build\zlib;D:\Course\02ComputerGraph (计算机图形学)\GAMES202\hw2\prt\ext\openexr\IlmBase\Iex;D:\Course\02ComputerGraph (计算机图形学)\GAMES202\hw2\prt\ext\openexr\IlmBase\Imath;D:\Course\02ComputerGraph (计算机图形学)\GAMES202\hw2\prt\ext\openexr\IlmBase\IlmThread;D:\Course\02ComputerGraph (计算机图形学)\GAMES202\hw2\prt\ext\openexr\IlmBase\Half;D:\Course\02ComputerGraph (计算机图形学)\GAMES202\hw2\prt\noriBuild\ext_build\openexr\IlmBase\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Course\02ComputerGraph (计算机图形学)\GAMES202\hw2\prt\ext\zlib;D:\Course\02ComputerGraph (计算机图形学)\GAMES202\hw2\prt\noriBuild\ext_build\zlib;D:\Course\02ComputerGraph (计算机图形学)\GAMES202\hw2\prt\ext\openexr\IlmBase\Iex;D:\Course\02ComputerGraph (计算机图形学)\GAMES202\hw2\prt\ext\openexr\IlmBase\Imath;D:\Course\02ComputerGraph (计算机图形学)\GAMES202\hw2\prt\ext\openexr\IlmBase\IlmThread;D:\Course\02ComputerGraph (计算机图形学)\GAMES202\hw2\prt\ext\openexr\IlmBase\Half;D:\Course\02ComputerGraph (计算机图形学)\GAMES202\hw2\prt\noriBuild\ext_build\openexr\IlmBase\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Course\02ComputerGraph (计算机图形学)\GAMES202\hw2\prt\ext\zlib;D:\Course\02ComputerGraph (计算机图形学)\GAMES202\hw2\prt\noriBuild\ext_build\zlib;D:\Course\02ComputerGraph (计算机图形学)\GAMES202\hw2\prt\ext\openexr\IlmBase\Iex;D:\Course\02ComputerGraph (计算机图形学)\GAMES202\hw2\prt\ext\openexr\IlmBase\Imath;D:\Course\02ComputerGraph (计算机图形学)\GAMES202\hw2\prt\ext\openexr\IlmBase\IlmThread;D:\Course\02ComputerGraph (计算机图形学)\GAMES202\hw2\prt\ext\openexr\IlmBase\Half;D:\Course\02ComputerGraph (计算机图形学)\GAMES202\hw2\prt\noriBuild\ext_build\openexr\IlmBase\config;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Course\02ComputerGraph (计算机图形学)\GAMES202\hw2\prt\ext\openexr\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Course/02ComputerGraph (计算机图形学)/GAMES202/hw2/prt/ext/openexr/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\Softwares\07CMake\bin\cmake.exe "-SD:/Course/02ComputerGraph (计算机图形学)/GAMES202/hw2/prt" "-BD:/Course/02ComputerGraph (计算机图形学)/GAMES202/hw2/prt/noriBuild" --check-stamp-file "D:/Course/02ComputerGraph (计算机图形学)/GAMES202/hw2/prt/noriBuild/ext_build/openexr/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Course\02ComputerGraph (计算机图形学)\GAMES202\hw2\prt\noriBuild\ext_build\openexr\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Course/02ComputerGraph (计算机图形学)/GAMES202/hw2/prt/ext/openexr/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\Softwares\07CMake\bin\cmake.exe "-SD:/Course/02ComputerGraph (计算机图形学)/GAMES202/hw2/prt" "-BD:/Course/02ComputerGraph (计算机图形学)/GAMES202/hw2/prt/noriBuild" --check-stamp-file "D:/Course/02ComputerGraph (计算机图形学)/GAMES202/hw2/prt/noriBuild/ext_build/openexr/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Course\02ComputerGraph (计算机图形学)\GAMES202\hw2\prt\noriBuild\ext_build\openexr\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Course/02ComputerGraph (计算机图形学)/GAMES202/hw2/prt/ext/openexr/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\Softwares\07CMake\bin\cmake.exe "-SD:/Course/02ComputerGraph (计算机图形学)/GAMES202/hw2/prt" "-BD:/Course/02ComputerGraph (计算机图形学)/GAMES202/hw2/prt/noriBuild" --check-stamp-file "D:/Course/02ComputerGraph (计算机图形学)/GAMES202/hw2/prt/noriBuild/ext_build/openexr/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Course\02ComputerGraph (计算机图形学)\GAMES202\hw2\prt\noriBuild\ext_build\openexr\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Course/02ComputerGraph (计算机图形学)/GAMES202/hw2/prt/ext/openexr/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\Softwares\07CMake\bin\cmake.exe "-SD:/Course/02ComputerGraph (计算机图形学)/GAMES202/hw2/prt" "-BD:/Course/02ComputerGraph (计算机图形学)/GAMES202/hw2/prt/noriBuild" --check-stamp-file "D:/Course/02ComputerGraph (计算机图形学)/GAMES202/hw2/prt/noriBuild/ext_build/openexr/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Course\02ComputerGraph (计算机图形学)\GAMES202\hw2\prt\noriBuild\ext_build\openexr\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Course\02ComputerGraph (计算机图形学)\GAMES202\hw2\prt\noriBuild\ZERO_CHECK.vcxproj">
+      <Project>{95040A0E-87FB-3AAE-B073-C1B4F1DE5779}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Course\02ComputerGraph (计算机图形学)\GAMES202\hw2\prt\noriBuild\ext_build\openexr\IlmBase\Half\Half.vcxproj">
+      <Project>{AF733E7C-74DE-3B2D-8B1D-9C2C17D16912}</Project>
+      <Name>Half</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Course\02ComputerGraph (计算机图形学)\GAMES202\hw2\prt\noriBuild\ext_build\openexr\IlmBase\Iex\Iex.vcxproj">
+      <Project>{D5C9C3A8-0D46-397C-B0F6-8065C4E6BD2D}</Project>
+      <Name>Iex</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Course\02ComputerGraph (计算机图形学)\GAMES202\hw2\prt\noriBuild\ext_build\openexr\IlmBase\IexMath\IexMath.vcxproj">
+      <Project>{72B1F940-33FA-317C-A335-374FE5C3E99F}</Project>
+      <Name>IexMath</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Course\02ComputerGraph (计算机图形学)\GAMES202\hw2\prt\noriBuild\ext_build\openexr\OpenEXR\IlmImf\IlmImf.vcxproj">
+      <Project>{9CEB9606-B39D-3B2E-BF94-19C84367F9EA}</Project>
+      <Name>IlmImf</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Course\02ComputerGraph (计算机图形学)\GAMES202\hw2\prt\noriBuild\ext_build\openexr\IlmBase\IlmThread\IlmThread.vcxproj">
+      <Project>{5E440BF8-ADFC-3EB2-85EE-D05B6FB6B66F}</Project>
+      <Name>IlmThread</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Course\02ComputerGraph (计算机图形学)\GAMES202\hw2\prt\noriBuild\ext_build\openexr\IlmBase\Imath\Imath.vcxproj">
+      <Project>{8B6CC01C-BC34-3C0C-9C3F-CA948D367EE8}</Project>
+      <Name>Imath</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Course\02ComputerGraph (计算机图形学)\GAMES202\hw2\prt\noriBuild\ext_build\openexr\OpenEXR\IlmImf\b44ExpLogTable.vcxproj">
+      <Project>{48676C02-14D1-34B1-980E-166CC79427AA}</Project>
+      <Name>b44ExpLogTable</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Course\02ComputerGraph (计算机图形学)\GAMES202\hw2\prt\noriBuild\ext_build\openexr\OpenEXR\IlmImf\dwaLookups.vcxproj">
+      <Project>{93A1D3B4-BD8E-363F-8124-CB937BFCE32A}</Project>
+      <Name>dwaLookups</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Course\02ComputerGraph (计算机图形学)\GAMES202\hw2\prt\noriBuild\ext_build\openexr\IlmBase\Half\eLut.vcxproj">
+      <Project>{D329FAA2-01C1-35D8-A826-8D205B9E6F13}</Project>
+      <Name>eLut</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Course\02ComputerGraph (计算机图形学)\GAMES202\hw2\prt\noriBuild\ext_build\openexr\IlmBase\Half\toFloat.vcxproj">
+      <Project>{C0F35913-777E-3C31-9793-4B35A3EED7EC}</Project>
+      <Name>toFloat</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Course\02ComputerGraph (计算机图形学)\GAMES202\hw2\prt\noriBuild\ext_build\openexr\zlib\zlib.vcxproj">
+      <Project>{21807878-A585-3EBC-93FC-B8966845FDB4}</Project>
+      <Name>zlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="$(VCTargetsPath)\BuildCustomizations\masm.targets" />
+  </ImportGroup>
+</Project>

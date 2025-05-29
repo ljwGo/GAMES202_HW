@@ -1,0 +1,10 @@
+# CMake generation dependency list for this directory.
+D:/Course/02ComputerGraph (计算机图形学)/GAMES202/hw2/prt/ext/zlib/CMakeLists.txt
+D:/Course/02ComputerGraph (计算机图形学)/GAMES202/hw2/prt/ext/zlib/zconf.h.cmakein
+D:/Course/02ComputerGraph (计算机图形学)/GAMES202/hw2/prt/ext/zlib/zlib.pc.cmakein
+D:/Softwares/07CMake/share/cmake-3.28/Modules/CheckCSourceCompiles.cmake
+D:/Softwares/07CMake/share/cmake-3.28/Modules/CheckFunctionExists.cmake
+D:/Softwares/07CMake/share/cmake-3.28/Modules/CheckIncludeFile.cmake
+D:/Softwares/07CMake/share/cmake-3.28/Modules/CheckIncludeFileCXX.cmake
+D:/Softwares/07CMake/share/cmake-3.28/Modules/CheckTypeSize.cmake
+D:/Softwares/07CMake/share/cmake-3.28/Modules/Internal/CheckSourceCompiles.cmake

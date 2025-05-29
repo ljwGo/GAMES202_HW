@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Course\02ComputerGraph (计算机图形学)\GAMES202\hw2\prt\ext\openexr\IlmBase\Half\half.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Course\02ComputerGraph (计算机图形学)\GAMES202\hw2\prt\noriBuild\CMakeFiles\41627d07757a8a9783720322fdb2b45d\eLut.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Course\02ComputerGraph (计算机图形学)\GAMES202\hw2\prt\noriBuild\CMakeFiles\41627d07757a8a9783720322fdb2b45d\toFloat.h.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\Course\02ComputerGraph (计算机图形学)\GAMES202\hw2\prt\ext\openexr\IlmBase\Half\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{2AC37D09-451F-3ACB-A539-3AB21D8AD092}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{A005D63A-5E3E-3700-9225-3C04D4834433}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

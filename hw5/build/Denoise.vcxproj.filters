@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Course\02ComputerGraph\GAMES202\hw5\src\denoiser.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Course\02ComputerGraph\GAMES202\hw5\src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Course\02ComputerGraph\GAMES202\hw5\src\util\image.cpp">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Course\02ComputerGraph\GAMES202\hw5\src\util\imageutil.cpp">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Course\02ComputerGraph\GAMES202\hw5\src\util\mathutil.cpp">
+      <Filter>src\util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Course\02ComputerGraph\GAMES202\hw5\src\denoiser.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Course\02ComputerGraph\GAMES202\hw5\src\ext\filesystem\fwd.h">
+      <Filter>src\ext\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Course\02ComputerGraph\GAMES202\hw5\src\ext\filesystem\path.h">
+      <Filter>src\ext\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Course\02ComputerGraph\GAMES202\hw5\src\ext\filesystem\resolver.h">
+      <Filter>src\ext\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Course\02ComputerGraph\GAMES202\hw5\src\ext\tinyexr\tinyexr.h">
+      <Filter>src\ext\tinyexr</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Course\02ComputerGraph\GAMES202\hw5\src\util\buffer.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Course\02ComputerGraph\GAMES202\hw5\src\util\common.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Course\02ComputerGraph\GAMES202\hw5\src\util\image.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Course\02ComputerGraph\GAMES202\hw5\src\util\imageutil.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Course\02ComputerGraph\GAMES202\hw5\src\util\mathutil.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Course\02ComputerGraph\GAMES202\hw5\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{04B90529-75AD-3346-91BB-F086FFA25250}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ext">
+      <UniqueIdentifier>{DC6E0914-9598-3DCB-9688-C449C309FB42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ext\filesystem">
+      <UniqueIdentifier>{2F162CDE-9F2E-3ECE-A80E-790350029A97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\ext\tinyexr">
+      <UniqueIdentifier>{38D52113-00DA-3EC1-87F1-3D76C65E1D93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\util">
+      <UniqueIdentifier>{D508FC1D-841C-3A27-9F9F-BFD560CC58DF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

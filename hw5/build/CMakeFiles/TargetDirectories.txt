@@ -1,0 +1,3 @@
+D:/Course/02ComputerGraph/GAMES202/hw5/build/CMakeFiles/Denoise.dir
+D:/Course/02ComputerGraph/GAMES202/hw5/build/CMakeFiles/ALL_BUILD.dir
+D:/Course/02ComputerGraph/GAMES202/hw5/build/CMakeFiles/ZERO_CHECK.dir

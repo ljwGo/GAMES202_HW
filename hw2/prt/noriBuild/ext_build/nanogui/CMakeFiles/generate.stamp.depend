@@ -1,0 +1,4 @@
+# CMake generation dependency list for this directory.
+D:/Course/02ComputerGraph (计算机图形学)/GAMES202/hw2/prt/ext/nanogui/CMakeLists.txt
+D:/Softwares/07CMake/share/cmake-3.28/Modules/CheckCXXCompilerFlag.cmake
+D:/Softwares/07CMake/share/cmake-3.28/Modules/CheckCXXSourceRuns.cmake
